@@ -9,12 +9,15 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "declaration": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"]
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
 }
