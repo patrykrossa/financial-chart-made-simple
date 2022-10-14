@@ -1,4 +1,4 @@
-import { useColorModeValue } from "@chakra-ui/react";
+//import { useColorModeValue } from "@chakra-ui/react";
 import React, { useEffect, useRef } from "react";
 import {
   Chart as ChartJS,
@@ -101,8 +101,8 @@ const Chart = ({
   const chartRef = useRef<ChartJS>(null);
   const chartRef2 = useRef<ChartJS>(null);
 
-  const barChartColor = useColorModeValue(colors.barChart, "#555");
-  const slideColor = useColorModeValue(colors.slide, "rgba(54, 162, 235, 0.1)");
+  const barChartColor = colors.barChart;
+  const slideColor = colors.slide;
 
   ChartJS.defaults.font.family = `'FontAwesome', '${font}', 'Arial', 'sans-serif'`;
 
@@ -1132,7 +1132,7 @@ const Chart = ({
   const options2 = {
     layout: {
       padding: {
-        left: 55,
+        left: 50,
         //right: 58,
         right: 8,
       },
