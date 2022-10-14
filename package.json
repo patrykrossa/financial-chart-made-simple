@@ -2,6 +2,13 @@
   "name": "financial-chart-made-simple",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://github.com/patrykrossa/financial-chart-made-simple",
+  "license": "MIT",
+  "author": "Patryk Rossa <patryk.rossaa@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrykrossa/financial-chart-made-simple"
+  },
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
     "@date-io/date-fns": "1.x",
