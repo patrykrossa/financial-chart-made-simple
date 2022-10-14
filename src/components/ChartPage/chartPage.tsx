@@ -1,11 +1,12 @@
 import { Flex, Text } from "@chakra-ui/react";
 import React from "react";
 import Chart from "../Chart/chart";
+import { BTCPrices } from "../../utils/btcPrices";
 
 const ChartPage = () => {
   return (
     <Flex w="100%" flexDirection="column" gridGap="25px">
-      <Flex color="white" fontSize="34px" fontWeight="600" mb="35px">
+      {/* <Flex color="white" fontSize="34px" fontWeight="600" mb="35px">
         Hashup Protocol&nbsp;<Text color="#FF3F3F">Charts</Text>
       </Flex>
       <Flex justifyContent="space-between" w="100%">
@@ -33,8 +34,9 @@ const ChartPage = () => {
             </Text>
           </Flex>
         ))}
-      </Flex>
-      <Chart />
+      </Flex> */}
+
+      <Chart dataset={BTCPrices} />
     </Flex>
   );
 };
