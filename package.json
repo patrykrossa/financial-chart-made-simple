@@ -1,7 +1,7 @@
 {
   "name": "chart",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
     "@date-io/date-fns": "1.x",
