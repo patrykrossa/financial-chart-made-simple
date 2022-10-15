@@ -9,6 +9,12 @@
     "type": "git",
     "url": "https://github.com/patrykrossa/financial-chart-made-simple"
   },
+  "keywords": [
+    "chartjs",
+    "chart",
+    "react",
+    "financial-chart"
+  ],
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
     "@date-io/date-fns": "1.x",
