@@ -1273,7 +1273,9 @@ export const Chart = ({
         plugins={[dottedLine]}
         ref={chartRef}
       />
-      <div style={{ fontSize: "12px", fontFamily: font }}>
+      <div
+        style={{ fontSize: "12px", fontFamily: font, color: "rgb(82, 82, 82)" }}
+      >
         {currency.toUpperCase()}
       </div>
       <ChartRJS
