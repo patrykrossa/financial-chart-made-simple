@@ -78,7 +78,7 @@ export const defaultColors = {
   slide: "rgba(54, 162, 235, 0.4)",
 };
 
-const Chart = ({
+export const Chart = ({
   colors = {
     above: "rgb(106, 173, 56)",
     below: "rgb(255, 63, 63)",
@@ -1283,5 +1283,3 @@ const Chart = ({
     </>
   );
 };
-
-export default Chart;
