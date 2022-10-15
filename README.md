@@ -34,15 +34,15 @@ Then you can use it as following:
 
 ```js
  //your own dataset
-  dataset: {
-    Date: string;
-    Open: number;
-    High?: number;
-    Low?: number;
-    Close?: number;
-    "Adj Close"?: number;
-    Volume: number;
-  }[];
+dataset: {
+   Date: string;
+   Open: number;
+   High?: number;
+   Low?: number;
+   Close?: number;
+   "Adj Close"?: number;
+   Volume: number;
+ }[];
 //colors object to customize the appearance of the chart
 colors?: {
     above?: string; //default: 'rgb(106, 173, 56)'
