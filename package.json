@@ -13,7 +13,9 @@
     "chartjs",
     "chart",
     "react",
-    "financial-chart"
+    "financial-chart",
+    "financial chart",
+    "typescript"
   ],
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",

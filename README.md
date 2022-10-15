@@ -1,4 +1,4 @@
-The package that allows you to build financial charts styled your way. The chart functionality is similar to that on coinmarketcap.io.
+The package that allows you to build responsive financial charts styled your way. The chart functionality is similar to that on coinmarketcap.io.
 
 ## Installation
 
@@ -33,7 +33,7 @@ Then you can use it as following:
 ### Props
 
 ```js
- //your own dataset
+//your own dataset
 dataset: {
    Date: string;
    Open: number;
@@ -59,10 +59,25 @@ colors?: {
     minChartBackground?: string; //default: 'rgba(54, 162, 235, 0.2)'
     slide?: string; //default: 'rgba(54, 162, 235, 0.4)'
   };
-  //font-family
-  font?: string; //default: 'Arial'
-  //currency; list of avaiable currencies and codes of them here: https://www.six-group.com/en/products-services/financial-information/data-standards.html#scrollTo=currency-codes
-  currency?: string; //default: 'USD'
+//font-family
+font?: string; //default: 'Arial'
+//currency; list of avaiable currencies and codes of them here: https://www.six-group.com/en/products-services/financial-information/data-standards.html#scrollTo=currency-codes
+currency?: string; //default: 'USD'
+```
+
+### Changing a particular color
+
+In order to change a particular color you need to do the following:
+
+```js
+import { defaultColors } from "financial-chart-made-simple";
+///...
+const colors = defaultColors;
+//if you want to change tooltip background for example
+colors.tooltip = 'rgb(100, 100, 100)' //pass your value here
+//...
+<Chart dataset={yourDataset} colors={colors} />
+//...
 ```
 
 ## License
