@@ -1274,7 +1274,14 @@ export const Chart = ({
         ref={chartRef}
       />
       <div
-        style={{ fontSize: "12px", fontFamily: font, color: "rgb(82, 82, 82)" }}
+        style={{
+          fontSize: "12px",
+          fontFamily: font,
+          color: "rgb(82, 82, 82)",
+          fontWeight: "bold",
+          marginLeft: "20px",
+          marginTop: "-10px",
+        }}
       >
         {currency.toUpperCase()}
       </div>
