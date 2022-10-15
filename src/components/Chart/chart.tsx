@@ -1273,6 +1273,7 @@ export const Chart = ({
         plugins={[dottedLine]}
         ref={chartRef}
       />
+      {currency.toUpperCase()}
       <ChartRJS
         type="line"
         data={data2 as any}
